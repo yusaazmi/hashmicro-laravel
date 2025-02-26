@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel 11 Custom Dashboard - ItSolutionStuff.com</title>
+    <title>MY APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-md-11">
                 <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                    <img src="https://www.itsolutionstuff.com/assets/images/logo-it-2.png" alt="BootstrapBrain Logo" width="300">
+                    <img src="" alt="BootstrapBrain Logo" width="300">
                 </a>          
             </div>
             <div class="col-md-1">

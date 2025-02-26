@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Laravel 11 Custom User Register Page</title>
+  <title>My APP</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style type="text/css">
     body{
@@ -21,7 +21,7 @@
           <div class="card-body p-3 p-md-4 p-xl-5">
             <div class="text-center mb-3">
               <a href="#!">
-                <img src="https://www.itsolutionstuff.com/assets/images/footer-logo-2.png" alt="BootstrapBrain Logo" width="250">
+                <img src="" alt="BootstrapBrain Logo" width="250">
               </a>
             </div>
             <h2 class="fs-6 fw-normal text-center text-secondary mb-4">Sign up to your account</h2>
