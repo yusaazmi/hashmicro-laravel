@@ -44,16 +44,7 @@ Ini adalah requirement untuk menjalankan aplikasi:
     ```bash
     php artisan db:seed
     ```
-10. Untuk menjalankan unit test anda dapat melakukan perintah berikut:
-    ```bash
-    php artisan test
-    ```
-11. Untuk generate code coverage anda dapat melakukan perintah berikut :
-    ```bash
-    php vendor/bin/phpunit --coverage-html reports
-    ```
-    dan kemudian anda bisa membuka reports/index.html melalui explore
-14. Untuk menjalankan aplikasi anda dapat menggunakan perintah berikut :
+10. Untuk menjalankan aplikasi anda dapat menggunakan perintah berikut :
     ```bash
     php artisan serve
     ```
@@ -61,7 +52,7 @@ Ini adalah requirement untuk menjalankan aplikasi:
     ```bash
     http://127.0.0.1:8000/login
     ```
-15. Anda bisa login dengan memasukkan email default admin
+11. Anda bisa login dengan memasukkan email default admin
     ```bash
     username : admin@gmail.com
     password : password
