@@ -21,7 +21,7 @@
           <div class="card-body p-3 p-md-4 p-xl-5">
             <div class="text-center mb-3">
               <a href="#!">
-                <img src="" alt="BootstrapBrain Logo" width="250">
+                <img src="{{asset('Hashmicro_logo.png')}}" alt="BootstrapBrain Logo" width="250">
               </a>
             </div>
             <h2 class="fs-6 fw-normal text-center text-secondary mb-4">Sign up to your account</h2>
