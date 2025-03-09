@@ -11,7 +11,7 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "composer install --no-dev --optimize-autoloader && vite build",
+    "buildCommand": "php -r \"copy('https://getcomposer.org/installer', 'composer-setup.php');\" && php composer-setup.php && php -r \"unlink('composer-setup.php');\" && php composer.phar install --no-dev --optimize-autoloader && vite build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
