@@ -43,6 +43,54 @@
                                 Delete
                             </button>
                         </td>
+                        <!-- Modal -->
+                        <div class="modal fade" id="deleteModal{{$c->id}}" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="deleteModalLabel">Konfirmasi Hapus</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Apakah Anda yakin ingin menghapus data kategori ini beserta produk yang terkait?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                        <form id="deleteForm" method="POST" action="{{route('admin.category.destroy',$c->id)}}">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-danger">Hapus</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal update -->
+                        <div class="modal fade" id="updateModal{{$c->id}}" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="updateModalLabel">Edit Product Category</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="{{route('admin.category.update',$c->id)}}" method="POST">
+                                            @csrf
+                                            @method('PUT')
+                                            <div class="mb-3">
+                                                <label for="categoryName" class="form-label">Category Name</label>
+                                                <input type="text" class="form-control" id="categoryName" name="name" value="{{$c->name}}" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="description" class="form-label">Description</label>
+                                                <textarea class="form-control" id="description" name="description" required>{{$c->description}}</textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Save Category</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         @endrole
                     </tr>
                     @endforeach
