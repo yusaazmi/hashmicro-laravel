@@ -30,6 +30,6 @@
         "DB_PORT": "3306",
         "DB_DATABASE": "hashmicro",
         "DB_USERNAME": "root",
-        "DB_PASSWORD": "iniPassword123!!",
+        "DB_PASSWORD": "iniPassword123!!"
     }
 }
