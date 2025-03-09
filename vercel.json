@@ -26,10 +26,10 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "127.0.0.1",
-        "DB_PORT": "3306",
-        "DB_DATABASE": "hashmicro",
-        "DB_USERNAME": "root",
-        "DB_PASSWORD": ""
+        "DB_HOST": "5uxuf.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_DATABASE": "hashmicro2025_drovedugin",
+        "DB_USERNAME": "hashmicro2025_drovedugin",
+        "DB_PASSWORD": "405d3dfc1133bb6cda14046870ab1b8e32a59af2"
     }
 }
